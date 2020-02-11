@@ -1,0 +1,1 @@
+dotnet run --project src/ConwayLife.App/ConwayLife.App.csproj
