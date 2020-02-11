@@ -135,6 +135,12 @@ namespace Client
                     Stop();
                     generator.PrevGeneration();
                 }
+
+                if (y.KeyCode == Keys.X)
+                {
+                    Stop();
+                    generator.NextGeneration();
+                }
             };
 
             // configure render pipeline
